@@ -11,7 +11,7 @@ private:
 	list<int> numbers;
 
 public:
-	void init();
-	void runSequence();
-	void addNumber();
+	void init(); //set starting values
+	void runSequence(); //game loop
+	void addNumber(); //add a new number each time the player succeeds
 };

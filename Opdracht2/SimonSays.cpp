@@ -8,6 +8,7 @@
 
 void SimonSays::init()
 {
+    //empty the list of numbers and assign 3 new numbers 
     numbers.clear();
     numbers = { rand() % 10, rand() % 10, rand() % 10 };
     runSequence();
@@ -51,6 +52,7 @@ void SimonSays::runSequence()
     runSequence();
 }
 
+//when the player succeeds, this adds a new number to the list
 void SimonSays::addNumber()
 {
     numbers.push_back(rand() % 10);
