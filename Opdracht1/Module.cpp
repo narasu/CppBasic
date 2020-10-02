@@ -7,17 +7,17 @@ Module::Module()
 {
 	name = "default";
 	room = "0.00";
-	teacher = Teacher();
+	docent = Docent();
 	group = "0x";
 	timeslot = Timeslot();
 }
 
 //user-assigned values
-Module::Module(std::string name, std::string room, Teacher teacher, std::string group, Timeslot timeslot)
+Module::Module(std::string name, std::string room, Docent docent, std::string group, Timeslot timeslot)
 {
 	this->name = name;
 	this->room = room;
-	this->teacher = teacher;
+	this->docent = docent;
 	this->group = group;
 	this->timeslot = timeslot;
 }
@@ -34,7 +34,7 @@ void Module::getData()
 {
 	std::cout << "Name: " << name << std::endl;
 	std::cout << "Room: " << room << std::endl;
-	std::cout << "Teacher: " << teacher.getName() << std::endl;
+	std::cout << "Docent: " << docent.getName() << std::endl;
 	std::cout << "Group: " << group << std::endl;
 	std::cout << "Time: " << timeslot.getStartTime() << " - " << timeslot.getEndTime() << std::endl;
 }

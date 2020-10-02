@@ -5,7 +5,7 @@
 
 int main()
 {
-	Module module = Module("name", "room", Teacher("Edwin"), "group", Timeslot()); // create new module 
+	Module module = Module("name", "room", Docent("Edwin"), "group", Timeslot()); // create new module 
 	module.setTimeslot(0, 0); // set timeslot for module
 	module.getData();
 	return 0;

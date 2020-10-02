@@ -24,7 +24,10 @@
     <ClCompile Include="Timeslot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Teacher.cpp">
+    <ClCompile Include="Docent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,13 +35,13 @@
     <ClInclude Include="Module.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Student.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Timeslot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Teacher.h">
+    <ClInclude Include="Docent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

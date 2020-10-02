@@ -2,14 +2,14 @@
 
 #include <string>
 
-class Teacher 
+class Docent 
 {
 private:
 	std::string name;
 	int id;
 public:
-	Teacher();
-	Teacher(std::string name);
-	Teacher(std::string name, int id);
+	Docent();
+	Docent(std::string name);
+	Docent(std::string name, int id);
 	std::string getName();
 };

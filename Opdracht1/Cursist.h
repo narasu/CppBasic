@@ -3,12 +3,13 @@
 #include "Module.h"
 #include <string>
 
-class Student
+class Cursist
 {
 private:
 	std::string name;
 	int studentNumber;
 	Module modules[];
 public:
-	Student(std::string name, int studentNumber, Module modules[]);
+	Cursist(std::string name, int studentNumber);
+	void assignModule(Module m);
 };
