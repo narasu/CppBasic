@@ -13,6 +13,7 @@ int main()
     std::cout << "---" << std::endl;
 
     Teacher teacher = Teacher("Henk", 41, 17.2552f);
+    std::cout << "Docent" << std::endl;
     std::cout << "Naam: " << teacher.getName() << std::endl;
     std::cout << "Leeftijd: " << teacher.getAge() << std::endl;
     std::cout << "Salaris: " << teacher.getSalary() << std::endl;
