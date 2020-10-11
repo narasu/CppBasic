@@ -27,6 +27,12 @@
     <ClCompile Include="CoffeeMachine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SpecialCoin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OneEuro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CoffeeMachine.h">
@@ -35,13 +41,13 @@
     <ClInclude Include="Coin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Euro.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="FiftyCent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SpecialCoin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OneEuro.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

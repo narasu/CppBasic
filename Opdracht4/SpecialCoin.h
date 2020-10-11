@@ -4,5 +4,6 @@
 
 class SpecialCoin : public Coin
 {
-
+public:
+	SpecialCoin();
 };

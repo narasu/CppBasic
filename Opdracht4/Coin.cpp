@@ -1,11 +1,16 @@
 #include "Coin.h"
 
-Coin::Coin(float _value)
+Coin::Coin(int _type)
 {
-	value = _value;
+	setType(_type);
 }
 
-float Coin::getValue()
+void Coin::setType(int _type)
 {
-	return value;
+	type = _type;
+}
+
+float Coin::getType()
+{
+	return type;
 }

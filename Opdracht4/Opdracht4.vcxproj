@@ -142,12 +142,14 @@
     <ClCompile Include="CoffeeMachine.cpp" />
     <ClCompile Include="Coin.cpp" />
     <ClCompile Include="FiftyCent.cpp" />
+    <ClCompile Include="OneEuro.cpp" />
     <ClCompile Include="Opdracht4.cpp" />
+    <ClCompile Include="SpecialCoin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CoffeeMachine.h" />
     <ClInclude Include="Coin.h" />
-    <ClInclude Include="Euro.h" />
+    <ClInclude Include="OneEuro.h" />
     <ClInclude Include="FiftyCent.h" />
     <ClInclude Include="SpecialCoin.h" />
   </ItemGroup>

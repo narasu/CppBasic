@@ -6,7 +6,9 @@
 class CoffeeMachine
 {
 private:
-	// std::string coffee[3];
+	int currentCoin = -1;
+	std::string coffee[3] = { "Espresso", "Cappuccino", "Magic Coffee" };
 public:
 	void insertCoin(Coin c);
+	void showCoffee();
 };

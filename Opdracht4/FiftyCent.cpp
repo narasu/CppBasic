@@ -1,5 +1,6 @@
 #include "FiftyCent.h"
 
-FiftyCent::FiftyCent() : Coin(value)
+FiftyCent::FiftyCent() : Coin(0)
 {
+	
 }
