@@ -1,10 +1,12 @@
 #pragma once
 
 #include <string>
+
 class Coin
 {
 private:
-	//some kind of value. what type? how? who? i know not
+	float value;
 public:
-	//virtual void getValue
+	Coin(float _value);
+	float getValue();
 };
