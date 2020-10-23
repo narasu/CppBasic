@@ -32,7 +32,7 @@ Koffer& Koffer::operator=(const Koffer& _andereKoffer)
 	
 	
 	kleur = _andereKoffer.kleur;
-	sokken = _andereKoffer.sokken;
+	*sokken = *_andereKoffer.sokken;
 	return *this;
 }
 

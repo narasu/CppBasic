@@ -28,7 +28,7 @@ Caravan& Caravan::operator=(const Caravan& _andereCaravan)
 
 
 	kleur = _andereCaravan.kleur;
-	koffer = _andereCaravan.koffer;
+	*koffer = *_andereCaravan.koffer;
 	return *this;
 }
 
@@ -48,7 +48,7 @@ void Caravan::toonInhoud()
 
 void Caravan::addKoffer(Koffer* _koffer)
 {
-	koffer = _koffer;
+	*koffer = *_koffer;
 	//std::cout << "Koffer added in caravan" << &koffer << std::endl;
 }
 
