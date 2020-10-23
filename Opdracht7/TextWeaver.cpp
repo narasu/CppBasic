@@ -34,9 +34,11 @@ void TextWeaver::weaveText(std::string _firstIn, std::string _secondIn, std::str
 	while (!firstIn.eof() || !secondIn.eof())
 	{
 		std::getline(firstIn, str);
-		std::cout << str << std::endl;
+		//std::cout << str << std::endl;
+		fileOut << str << std::endl;
 		std::getline(secondIn, str);
-		std::cout << str << std::endl;
+		//std::cout << str << std::endl;
+		fileOut << str << std::endl;
 	}
 	
 

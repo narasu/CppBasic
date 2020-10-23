@@ -9,8 +9,8 @@ int main()
 {
 	//std::cout << fs::current_path();
 	
-	//TextReverser textReverser;
-	//textReverser.reverseText("jabberwocky.txt", "ykcowrebbaj.txt");
+	TextReverser textReverser;
+	textReverser.reverseText("jabberwocky.txt", "ykcowrebbaj.txt");
 	
 	TextWeaver textWeaver;
 	textWeaver.weaveText("jabberwocky.txt", "jabberwocky_lat.txt", "jabberbocchum.txt");

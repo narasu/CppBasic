@@ -35,7 +35,7 @@ void TextReverser::reverseText(std::string _fileIn, std::string _fileOut)
 		fileIn.seekg(i, fileIn.beg);
 		fileIn.get(c);
 		fileOut.put(c);
-		std::cout.put(c);
+		//std::cout.put(c);
 		i--;
 	}
 
