@@ -10,6 +10,6 @@ private:
 	std::string coinName[3] = { "Fifty cents", "One euro", "Special" };
 	std::string coffee[3] = { "Espresso", "Cappuccino", "Magic Coffee" };
 public:
-	void insertCoin(Coin c);
+	void insertCoin(Coin* c);
 	void showCoffee();
 };

@@ -20,28 +20,46 @@ int main()
     std::cout << "2: One euro" << std::endl;
     std::cout << "3: Special coin" << std::endl;
     
+    Coin* fiftyCent = new FiftyCent();
+    Coin* oneEuro = new OneEuro();
+    Coin* specialCoin = new SpecialCoin();
+
     int selection;
     std::cin >> selection;
-
-    FiftyCent fiftyCent;
-    OneEuro oneEuro;
-    SpecialCoin specialCoin;
 
     switch (selection)
     {
     case 1:
         coffeeMachine->insertCoin(fiftyCent);
+        break;
     case 2:
         coffeeMachine->insertCoin(oneEuro);
+        break;
     case 3:
         coffeeMachine->insertCoin(specialCoin);
+        break;
     }
+    /*
+    if (selection == 1)
+    {
+        coffeeMachine->insertCoin(fiftyCent);
+    }
+    if (selection == 2)
+    {
+        coffeeMachine->insertCoin(oneEuro);
+    }
+    if (selection == 3)
+    {
+        coffeeMachine->insertCoin(specialCoin);
+    }*/
 
     system("CLS");
 
     coffeeMachine->showCoffee();
     
-
+    delete fiftyCent;
+    delete oneEuro;
+    delete specialCoin;
     delete coffeeMachine;
     return 0;
 }

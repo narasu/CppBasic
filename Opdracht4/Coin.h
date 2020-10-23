@@ -5,9 +5,9 @@
 class Coin
 {
 private:
-	int type;
+	int type = -1;
 public:
 	Coin(int _type);
 	void setType(int _type);
-	float getType();
+	virtual float getType();
 };

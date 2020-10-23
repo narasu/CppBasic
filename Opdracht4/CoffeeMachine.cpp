@@ -2,15 +2,15 @@
 #include <iostream>
 #include <typeinfo>
 
-void CoffeeMachine::insertCoin(Coin c)
+void CoffeeMachine::insertCoin(Coin* c)
 {
-	currentCoin = c.getType();
+	currentCoin = c->getType();
 	
 }
 
 void CoffeeMachine::showCoffee()
 {
-	std::cout << "You have inserted a " << coinName[currentCoin] << "coin. " << std::endl;
+	std::cout << "You have inserted a " << coinName[currentCoin] << " coin." << std::endl;
 	std::cout << "You may buy the following coffee:" << std::endl;
 	
 	for (int i = 0; i <= currentCoin; i++)
