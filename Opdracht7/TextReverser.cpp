@@ -20,17 +20,27 @@ void TextReverser::reverseText(std::string _fileIn, std::string _fileOut)
 		std::cout << "could not open file: " << _fileOut << std::endl;
 		return;
 	}
+	
+	//point at end of file and get length
+	fileIn.seekg(0, fileIn.end);
+	int length = fileIn.tellg();
 
-	int length = fileIn.gcount();
+	//char *c = new char[1];
+	char c;
+	int i = length - 1;
 
-	for (int i = length; i > 0; i--)
+	//read through file backwards and write each character in fileOut
+	while (i >= 0)
 	{
-		std::cout << fileIn.get();
-
+		fileIn.seekg(i, fileIn.beg);
+		fileIn.get(c);
+		fileOut.put(c);
+		std::cout.put(c);
+		i--;
 	}
 
+	//delete[] c;
 	
-
 	fileIn.close();
 	fileOut.close();
 }

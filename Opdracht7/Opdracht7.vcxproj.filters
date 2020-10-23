@@ -21,9 +21,15 @@
     <ClCompile Include="TextReverser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TextWeaver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TextReverser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextWeaver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

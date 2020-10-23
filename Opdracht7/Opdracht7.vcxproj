@@ -142,9 +142,11 @@
   <ItemGroup>
     <ClCompile Include="Opdracht7.cpp" />
     <ClCompile Include="TextReverser.cpp" />
+    <ClCompile Include="TextWeaver.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TextReverser.h" />
+    <ClInclude Include="TextWeaver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
